@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "JavaScript-based Application Modeling Language.\n\nA modeling language inspired by W3School's AppML, developed for JavaScript based application servers (Node).\nThe intention of this package is to create a simplified way to rapidly create applications similar to the simplicity of AppML. However; redesigned and redefined for the modern JavaScript landscape.\n\n\nA lofty goal if you ask me.",
   "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js --trace-warnings"
   },
   "keywords": [
     "js-appml",
